@@ -10,6 +10,7 @@ type Planet struct{
 func (p Planet) GetName() string{
 	return p.Name
 }
+
 // Similar to the extension methods like C#
 // these methods can come from other packages too.
 func (p Planet) SetName(name string){
