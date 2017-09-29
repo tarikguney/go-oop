@@ -19,8 +19,9 @@ func (p *Planet) SetName(name string){
 func main(){
 	var planet Planet = Planet{Name:"World"}
 
-	fmt.Println(planet.Name)
 	fmt.Println(planet.GetName())
+	// Seeing any problem?
+	SetName(planet)
 	fmt.Println(planet.Name)
 }
 
